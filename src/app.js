@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(
   cors({
     origin: true,
-    url: ["http://localhost:5173"],
+    url: ["http://localhost:4200"],
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     allowedHeaders: "Content-Type,Authorization",
     credentials: true,
